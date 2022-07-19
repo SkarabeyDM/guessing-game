@@ -2,11 +2,7 @@ class GuessingGame {
 
     #min; #max; #guess
 
-    constructor() {
-        this.#min = null
-        this.#max = null
-        this.#guess = null
-    }
+    constructor() {}
 
     setRange(min, max) {
         this.#min = min
